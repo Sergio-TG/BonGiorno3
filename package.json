@@ -1,0 +1,28 @@
+{
+  "name": "bongiorno2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "sass:watch": "sass --watch scss/main.scss  css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sergio-TG/BonGiorno2.git"
+  },
+  "author": "SergioTG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sergio-TG/BonGiorno2/issues"
+  },
+  "homepage": "https://github.com/Sergio-TG/BonGiorno2#readme",
+  "dependencies": {
+    "sass": "^1.54.0"
+  },
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  },
+  "description": ""
+}

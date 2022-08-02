@@ -1,0 +1,24 @@
+//nesting
+#botonera {
+    background: color: $mainColor;
+    paddin: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+
+    ul {
+        diplay: flex;
+
+        li {
+            list-style: none;
+
+            a {
+                color: $keyColor;
+                font-family: $secondaryfont;
+                &:hover{
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+
+}
