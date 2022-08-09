@@ -254,6 +254,7 @@ main {
     animation-name: textAlpha;
     animation-duration: 6s;
 }
+
 .mision {
     border-style: outset;
     display: flex;
@@ -264,7 +265,7 @@ main {
     animation-duration: 6s;
 }
 
-.accordion-item{
+.accordion-item {
     background-color: #B0B0B0;
 }
 
@@ -325,8 +326,8 @@ p {
 
 }
 
-#row__productos{
-        display: flex;
+#row__productos {
+    display: flex;
     flex-direction: column;
     align-items: center;
 
@@ -443,7 +444,7 @@ div footer div a img {
     box-sizing: border-box;
 }
 
-#copy__by{
+#copy__by {
     justify-content: center;
     text-align: center;
     padding: 10px 0;
@@ -452,11 +453,30 @@ div footer div a img {
 
 /*Aplicando Animaciones*/
 @keyframes animateDiv {
-    0% {background-color: darkgrey;width: 250px;}
-    25%{background-color: deeppink;width: 350px;}
-    50%{background-color: darkorange;width: 550px;}
-    75%{background-color: yellow;width: 350px;}
-    100%{background-color: #4B4D4B;width: 250px;}
+    0% {
+        background-color: darkgrey;
+        width: 250px;
+    }
+
+    25% {
+        background-color: deeppink;
+        width: 350px;
+    }
+
+    50% {
+        background-color: darkorange;
+        width: 550px;
+    }
+
+    75% {
+        background-color: yellow;
+        width: 350px;
+    }
+
+    100% {
+        background-color: #4B4D4B;
+        width: 250px;
+    }
 }
 
 @keyframes textAlpha {
@@ -487,7 +507,9 @@ div footer div a img {
 /* Versión para Móvil*/
 @media (min-width:320px) and (max-width:480px) {
 
-        display: flex;{
+    display: flex;
+
+        {
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -536,7 +558,9 @@ div footer div a img {
     #form_contact {
         width: 100%;
     }
-
+    .form-row {
+            width: 100%;
+        }
     .mapa {
         width: 100%;
     }
@@ -575,8 +599,12 @@ div footer div a img {
             width: 100%;
         }
 
-        .mapa {
+        #form_contact {
             width: 100%;
+        }
+
+        .mapa {
+            width: auto;
         }
 
     }
