@@ -1,22 +1,23 @@
-//nesting
-#botonera {
-    background: color: $mainColor;
-    paddin: 5px 20px;
+//nesting - anidación
+
+#botonera{
+    background: linear-gradient(to right, #FF0000, #FFF200, #1E9600);
     display: flex;
-    justify-content: space-between;
-
-    ul {
-        diplay: flex;
-
-        li {
+    align-items: center;
+    justify-content: center;
+    ul{
+        display: flex;
+        li{
             list-style: none;
-
-            a {
-                color: $keyColor;
-                font-family: $secondaryfont;
+            margin-right: 10px;
+            a{
+                color:$secondaryColor;
+                font-family: $fontMain;
+                font-size: $textSm;
                 &:hover{
-                    font-weight: 900;
+                    color:$keyColor;
                 }
+
             }
         }
     }

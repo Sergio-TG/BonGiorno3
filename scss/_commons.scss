@@ -1,34 +1,46 @@
-a {
-    text-decoration: none;
+h1,
+h2,
+h3,{
+    font-family: $secondaryFont;
+    font-weight: $textBold;
 }
 
-
-body {
-    background: -webkit-linear-gradient(to right, #FF0000, #FFF200, #1E9600);
-    /* Chrome 10-25, Safari 5.1-6*/
-    background: linear-gradient(to right, #FF0000, #FFF200, #1E9600);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+h1{
+    font-size: $textLg;
 }
 
-
-h1 {
-    font-size:$textLg;
-    color: #25226C;
-    font-family: Cinzel;
-
-}
-
-h2 {
+h2{
     font-size: $textMd;
-    color: #941089;
-    text-align: center;
 }
 
-p {
-    font-family: 'Roboto', sans-serif;
-    color: #939292;
+h3{
     font-size: $textSm;
-    line-height: 1em;
+}
 
+body{
+    background: linear-gradient(to right, #FF0000, #FFF200, #1E9600);
+}
+
+#mainContact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.formContacto {
+    font-family: 'Roboto serif;', sans-serif;
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    text-align: auto;
+    color: #F44C7B;
+    font-size: 2rem;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }

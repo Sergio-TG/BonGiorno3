@@ -1,28 +1,25 @@
 {
-  "name": "bongiorno2",
+  "name": "bongiorno3",
   "version": "1.0.0",
+  "description": "Proyecto Bon Giorno Pastas Artesanales",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass",
-    "sass:watch": "sass --watch scss/main.scss  css/main.css"
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sergio-TG/BonGiorno2.git"
+    "url": "git+https://github.com/Sergio-TG/BonGiorno3.git"
   },
-  "author": "SergioTG",
+  "author": "Sergio Torres Guaymasi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Sergio-TG/BonGiorno2/issues"
+    "url": "https://github.com/Sergio-TG/BonGiorno3/issues"
   },
-  "homepage": "https://github.com/Sergio-TG/BonGiorno2#readme",
-  "dependencies": {
-    "sass": "^1.54.0"
-  },
+  "homepage": "https://github.com/Sergio-TG/BonGiorno3#readme",
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.19"
-  },
-  "description": ""
+  }
 }

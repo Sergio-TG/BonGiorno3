@@ -1,11 +1,103 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto:wght@300;700&display=swap');
-$fontMain:'Roboto', sans-serif;
-$secondaryFont:'Nunito', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+$fontMain: 'Roboto', sans-serif;
+$secondaryFont: 'Cinzel', sans-serif;
 
-$textLg:3em;
-$textMd:2em;
-$textSm:1em;
+$textLg: 3em;
+$textMd: 2em;
+$textSm: 1em;
 
-$textBold:700;
-$textRegular:400;
-$textLight:300;
+$textBold: 700;
+$textRegular: 400;
+$textLight: 300;
+
+
+.subtMision {
+    font-family: $fontMain;
+    background-color: $brown;
+    border-style:dotted;
+    font-size: $textMd;
+}
+
+.text__mision {
+    color: blueviolet;
+}
+
+.subtValores {
+    font-family: $fontMain;
+    background-color: #4D17FD;
+    border-style: groove;
+    color: lightcoral;
+    font-size: 2rem;
+}
+
+.text__valores {
+    color: skyblue;
+}
+#cabecera__principal {
+    color: #1D1E0C;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    font-size: 2.6em;
+    padding: 20px 20px;
+}
+
+.cabecera__nosotros {
+    color: #271D4E;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    font-size: 2em;
+    padding: 20px 20px;
+    text-align: center;
+    animation-name: textAlpha;
+    animation-duration: 3s;
+}
+
+.cabecera__contacto {
+    color: #EF0E2E;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.text__contacto {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    animation-name: textAlpha;
+    animation-duration: 2s;
+}
+
+.text__horario {
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+#form_contact {
+    display: block;
+    width: auto;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.cabecera__productos {
+    color: #14E3E3;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    font-size: 3rem;
+    text-decoration: none;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+#nuestras_promos {
+    color: #5446DC;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 20px 20px;
+    text-align: center;
+}
