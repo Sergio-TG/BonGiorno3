@@ -1,24 +1,36 @@
 h1,
 h2,
-h3,{
+h3,
+    {
     font-family: $secondaryFont;
     font-weight: $textBold;
 }
 
-h1{
+h1 {
     font-size: $textLg;
 }
 
-h2{
+h2 {
     font-size: $textMd;
 }
 
-h3{
+h3 {
     font-size: $textSm;
 }
 
-body{
+body {
     background: linear-gradient(to right, #FF0000, #FFF200, #1E9600);
+}
+
+main {
+    text-align: center;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
 }
 
 #mainContact {
@@ -33,6 +45,7 @@ body{
     box-sizing: border-box;
     overflow-x: hidden;
 }
+
 .formContacto {
     font-family: 'Roboto serif;', sans-serif;
     display: block;
@@ -43,4 +56,8 @@ body{
     font-size: 2rem;
     box-sizing: border-box;
     overflow-x: hidden;
+}
+
+#btn_enviar {
+    margin: 20px
 }

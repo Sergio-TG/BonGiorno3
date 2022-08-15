@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <!-- Seo -->
+    <!-- Seo -->
     <title>Pastas Artesanales - Bon Giorno</title>
-    <meta name="descripcion" content="Sitio Web que relata la historia y los inicios del emprendimiento Bon Giorno dedicado a la producción de Pastas Artesanales en la ciudad de Rosario, Santa Fe">
-    <meta name="keywords" content="Sitio web online, Pastas Artesanales, Pastas Frescas, Pizzas, Tartas, Empanadas, Canelones, Raviolones, Sorrentinos, Pastas en Rosario, Pastas Frescas en Santa Fe, Promociones de Pastas Frescas en Rosario">
+    <meta name="descripcion" content="Sitio Web para ponerse en contacto con el emprendimiento Bon Giorno Pastas Artesanales en la ciudad de Rosario, Santa Fe">
+    <meta name="keywords" content="Sitio web online, Pastas Artesanales, Pastas Frescas, Pizzas, Tartas, Empanadas, Canelones, Raviolones, Sorrentinos, Pastas en Rosario, Derlivery de Pastas, Pastas Frescas en Santa Fe, Promociones de Pastas Frescas en Rosario">
     <!-- favicon -->
     <link rel="shortcut icon" href="../images/favicon.png">
     <!-- bootstrap -->
@@ -15,11 +15,11 @@
     <!-- css -->
     <link rel="stylesheet" href="../css/style.css">
     <!-- animaciones -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
- <!-- inicia nav -->
+    <!-- inicia nav -->
     <nav class="navbar navbar-expand-lg bg-grey sticky-top" id="botonera">
         <div class="container-fluid">
             <a class="navbar-brand" href="../index.html">
@@ -68,47 +68,50 @@
         <h1 class="cabecera__contacto">Contacto</h1>
         <h2 class="text__contacto">Teléfono 0341 155938109</h2>
         <h3 class="text__horario">Horario de Atención de Lunes a Viernes de 9 a 19 hs.</h3>
-            <div id="form_contact" form>
-                <div class="form-row">
-                    <div class="form-group col-l">
-                        <label for="name" class="col-form-label">Nombre</label>
-                        <input type="text" class="form-control" id="nombre" placeholder="ingrese su nombre">
-                    </div>
-                    <div class="form-group col-l">
-                        <label for="apellido" class="col-form-label">Apellido</label>
-                        <input type="text" class="form-control" id="apellido" placeholder="ingrese su apellido">
-                    </div>
+        <div id="form_contact" form class="container">
+            <div class="form-row">
+                <div class="form-group col-l">
+                    <label for="name" class="col-form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="ingrese su nombre">
                 </div>
-                <div class="form-group">
-                    <label for="telefono" class="col-form-label">Teléfono</label>
-                    <input type="text" class="form-control" id="telefono" placeholder="ingrese su número de teléfono">
+                <div class="form-group col-l">
+                    <label for="apellido" class="col-form-label">Apellido</label>
+                    <input type="text" class="form-control" id="apellido" placeholder="ingrese su apellido">
                 </div>
-                <div class="form-group">
-                    <label for="textarea" class="col-form-label">Ingrese su mensaje</label>
-                    <textarea class="form-control" id="textarea" rows="5"></textarea>
-               </div>
-               <br>
-                <div class="form-group">
-                    <button type="submit" class="btn btn-primary">Enviar</button>    
+            </div>
+            <div class="form-group col-l">
+                <label for="telefono" class="col-form-label">Teléfono</label>
+                <input type="text" class="form-control" id="telefono" placeholder="ingrese su número de teléfono">
+            </div>
+            <div class="form-group col-l">
+                <label for="textarea" class="col-form-label">Ingrese su mensaje</label>
+                <textarea class="form-control" id="textarea" rows="5"></textarea>
+            </div>
+            <br>
+            <div class="form-group text-center" id="btn_enviar">
+                <button type="submit" class="btn btn-primary">Enviar</button>
             </div form>
-            <div class="mapa">
-                <iframe src="https://www.google.com/maps/d/u/0/embed?mid=121NDB5EQ3Gph8qTWgXnAKinUReSMwe0&ehbc=2E312F" width="640" height="480"></iframe>
+            <h4>¿Dónde estamos? Podes ubicarnos en la ciudad de Rosario, Santa Fe</h4>
+            <div class="row mapa">
+                <iframe src="https://www.google.com/maps/d/u/0/embed?mid=121NDB5EQ3Gph8qTWgXnAKinUReSMwe0&ehbc=2E312F" width="640" height="480" class="col-12"></iframe>
             </div>
     </main>
-    <footer class="py-3 bg-dark mt-3 text-center text-white text-uppercase">
-        <div class="redSocial">
-            <a href="https://facebook.com/" target="_blank"><img src="../images/facebook.png" alt=""></a>
-            <a href="https://instagram.com/" target="_blank"><img src="../images/instagram.png" alt=""></a>
-            <a href="https://twitter.com/" target="_blank"><img src="../images/twitter.png" alt=""></a>
-            <a href="https://api.whatsapp.com/send?phone=543415938109" target="_blank"><img src="../images/whatsapp-logo2.png" alt="Consultas por whatsapp"></a>
-        </div>
-    </footer>
-    <div id="copy__by">2022 &copy; Bon Giorno by SergioTG</div>
-    <script src="js/wow.min.js"></script>
-    <script>
-    new WOW().init();
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+ <!-- inicia footer -->
+        <footer class="py-3 bg-dark mt-3 text-center">
+            <div class="redSocial">
+                <!-- Seo -->
+                <a href="https://facebook.com/" target="_blank"><img src="../images/facebook.png" alt="Link para acceder a mi red social Facebook"></a>
+                <a href="https://instagram.com/" target="_blank"><img src="../images/instagram.png" alt="Link para acceder a mi red social Instagram"></a>
+                <a href="https://twitter.com/" target="_blank"><img src="../images/twitter.png" alt="Link para acceder a mi red social Twitter"></a>
+                <a href="https://api.whatsapp.com/send?phone=543415938109" target="_blank"><img src="../images/whatsapp-logo2.png" alt="Link para realizar Consultas vía chat por la aplicación whatsapp"></a>
+            </div>
+        </footer>
+        <div id="copy__by">2022 &copy; Bon Giorno Developed by SergioTG</div>
+        <script src="js/wow.min.js"></script>
+        <script>
+        new WOW().init();
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -3,14 +3,14 @@ div footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 5px 0;
     margin-top: 150px;
 
 }
 
 footer a {
-    margin: 20px;
+    margin: 10px;
 }
 
 footer div a:hover {
@@ -18,11 +18,11 @@ footer div a:hover {
 }
 
 div footer div {
-    padding: 10px 7px;
+    padding: 5px 7px;
 }
 
 div footer div a img {
-    width: 8%;
+    width: 10%;
     margin: 10px;
 }
 
@@ -37,4 +37,8 @@ div footer div a img {
     text-align: center;
     padding: 10px 0;
     margin: 10px;
+}
+
+.row mapa {
+    justify-content: space-between;
 }
