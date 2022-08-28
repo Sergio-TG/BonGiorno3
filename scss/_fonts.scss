@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Quintessential&family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+
 $fontMain: 'Roboto', sans-serif;
 $secondaryFont: 'Cinzel', sans-serif;
-
+$textXl: 4em;
 $textLg: 3em;
 $textMd: 2em;
+$textMds: 1.5em;
 $textSm: 1em;
 
 $textBold: 700;
@@ -13,36 +15,18 @@ $textRegular: 400;
 $textLight: 300;
 
 
-.subtMision {
-    font-family: $fontMain;
-    background-color: $brown;
-    border-style:dotted;
-    font-size: $textMd;
-}
-
-.text__mision {
-    color: blueviolet;
-}
-
-.subtValores {
-    font-family: $fontMain;
-    background-color: #4D17FD;
-    border-style: groove;
-    color: lightcoral;
-    font-size: 2rem;
-}
-
-.text__valores {
-    color: skyblue;
-}
 #cabecera__principal {
     color: #1D1E0C;
     font-family: 'Cinzel', serif;
     font-weight: bold;
-    font-size: 2.6em;
-    padding: 20px 20px;
+    font-size: 2.2em;
+    text-align: center
 }
 
+#subtitulo__principal{
+    margin-top: 10px;
+
+}
 .cabecera__nosotros {
     color: #271D4E;
     font-family: 'Cinzel', serif;
@@ -83,6 +67,7 @@ $textLight: 300;
     box-sizing: border-box;
     overflow-x: hidden;
 }
+
 .cabecera__productos {
     color: #14E3E3;
     font-family: 'Cinzel', serif;

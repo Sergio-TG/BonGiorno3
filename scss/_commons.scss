@@ -1,6 +1,8 @@
 h1,
 h2,
 h3,
+h4,
+h5,
     {
     font-family: $secondaryFont;
     font-weight: $textBold;
@@ -8,10 +10,12 @@ h3,
 
 h1 {
     font-size: $textLg;
+    text-align: center;
 }
 
 h2 {
     font-size: $textMd;
+    text-align: center;
 }
 
 h3 {
@@ -32,7 +36,56 @@ main {
     margin: 5px;
     padding: 10px;
 }
+.nosotros_main{
+    width: $w-50;
+    margin-top: 20px;
+}
+.main-text{
+    font-size: $textMds;
+    padding: 20 px;
+    text-align: justify;
 
+}
+
+.accordion-item{
+    background: $black
+}
+.accordion-body{
+    color: $orange;
+    text-align: justify;
+}
+.panelsStayOpen-collapseOne{
+    background: black;
+    box-sizing:border-box;
+}
+
+#carouselExampleInterval {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    width: $w-45;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: $w-10;
+    height: $w-75;
+    margin: 30px;
+    border-size: border-box;
+}
+.card-text{
+    margin-top: 15px;
+}
+.card-title{
+    margin-top: 15px;
+}
+
+.accordionPanelsStayOpenExample{
+    background: black;
+    ;
+}
 #mainContact {
     display: flex;
     flex-direction: column;

@@ -1,25 +1,37 @@
-//nesting - anidación
+//En la navbar utilice anidación y también extendí las propiedades cuando hago hover sobre los links e íconos de Bootstrap.
 
-#botonera{
+
+#botonera {
     background: linear-gradient(to right, #FF0000, #FFF200, #1E9600);
     display: flex;
     align-items: center;
     justify-content: center;
-    ul{
-        display: flex;
-        li{
+
+    ul {
+        align-items: center;
+
+        li {
             list-style: none;
             margin-right: 10px;
-            a{
-                color:$secondaryColor;
-                font-family: $fontMain;
-                font-size: $textSm;
-                &:hover{
-                    color:$keyColor;
-                }
+            color: $mainColor;
+            font-family: $fontMain;
+            font-size: $textSm;
+            font-weight: $textRegular;
 
+            &:hover {
+                color: $green;
+                font-weight: $textBold;
+                cursor: pointer;
+                transform: scale(1.125);
             }
+
         }
     }
 
 }
+
+a {
+    @extend li;
+    color: $secondaryColor;
+}
+
