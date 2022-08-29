@@ -1,3 +1,6 @@
+@import "./mixins";
+@import "./vars";
+
 #cabecera__principal, #subtitulo__principal {
     @include medias(mobile) {
         font-size: $textMd;
@@ -9,6 +12,19 @@
         margin: auto;
         padding: 0;
         box-sizing: border-box;
+        width: $w-80;
 }
 }        
 
+.cards {
+    @include medias(mobile) {
+        width: $w-85;
+}
+}
+
+#botonera{
+    @include medias(mobile) {
+        :hover{
+            color:$red;}
+    }
+}

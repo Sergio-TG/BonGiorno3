@@ -22,7 +22,7 @@
                 color: $green;
                 font-weight: $textBold;
                 cursor: pointer;
-                transform: scale(1.125);
+                transform: scale(1.112);
             }
 
         }
@@ -35,3 +35,9 @@ a {
     color: $secondaryColor;
 }
 
+@media (min-width:320px) and (max-width:480px) {
+    .navbar{
+        &:hover{
+            color:$red}
+    }
+    }

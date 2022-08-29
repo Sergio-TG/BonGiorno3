@@ -96,13 +96,18 @@
   color: rgb(138, 221, 45);
   font-weight: 700;
   cursor: pointer;
-  transform: scale(1.125);
+  transform: scale(1.112);
 }
 
 a {
   color: rgb(255, 220, 16);
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+  .navbar:hover {
+    color: #EF0E2E;
+  }
+}
 h1,
 h2,
 h3,
@@ -181,7 +186,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 10%;
+  width: 85%;
   height: 75%;
   margin: 30px;
   border-size: border-box;
@@ -578,6 +583,19 @@ body {
     margin: auto;
     padding: 0;
     box-sizing: border-box;
+    width: 80%;
+  }
+}
+
+@media (min-width: 320px) {
+  .cards {
+    width: 85%;
+  }
+}
+
+@media (min-width: 320px) {
+  #botonera :hover {
+    color: #EF0E2E;
   }
 }
 
