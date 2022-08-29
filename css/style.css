@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css?family=Audiowide&display=swap");
 #cabecera__principal {
   color: #1D1E0C;
-  font-family: "Cinzel", serif;
+  font-family: "Cinzel", sans-serif;
   font-weight: bold;
   font-size: 2.2em;
   text-align: center;
@@ -15,8 +15,8 @@
 }
 
 .cabecera__nosotros {
-  color: #271D4E;
-  font-family: "Cinzel", serif;
+  color: #EF0E2E;
+  font-family: "Cinzel", sans-serif;
   font-weight: bold;
   font-size: 2em;
   padding: 20px 20px;
@@ -27,15 +27,15 @@
 
 .cabecera__contacto {
   color: #EF0E2E;
-  font-family: "Cinzel", serif;
+  font-family: "Cinzel", sans-serif;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 2em;
   padding: 20px 20px;
   text-align: center;
 }
 
 .text__contacto {
-  font-size: 2em;
+  font-size: 1.2em;
   font-weight: bold;
   text-align: center;
   animation-name: textAlpha;
@@ -43,7 +43,7 @@
 }
 
 .text__horario {
-  font-size: 2.4rem;
+  font-size: 1.2em;
   font-weight: bold;
   text-align: center;
 }
@@ -56,20 +56,21 @@
 }
 
 .cabecera__productos {
-  color: #14E3E3;
-  font-family: "Cinzel", serif;
+  color: #EF0E2E;
+  font-family: "Cinzel", sans-serif;
   font-weight: bold;
-  font-size: 3rem;
-  text-decoration: none;
+  font-size: 2em;
   padding: 20px 20px;
   text-align: center;
+  animation-name: textAlpha;
+  animation-duration: 4s;
 }
 
 #nuestras_promos {
-  color: #5446DC;
-  font-family: "Cinzel", serif;
+  color: #EF0E2E;
+  font-family: "Cinzel", sans-serif;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 2em;
   padding: 20px 20px;
   text-align: center;
 }
@@ -130,12 +131,12 @@ body {
 }
 
 main {
-  text-align: center;
   display: flex;
-  border-radius: 10px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  border-radius: 10px;
   margin: 5px;
   padding: 10px;
 }
@@ -146,9 +147,13 @@ main {
 }
 
 .main-text {
-  font-size: 1.5em;
-  padding: 20 px;
+  color: rgb(255, 220, 16);
+  font-size: 1.2em;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
   text-align: justify;
+  background-color: #1b1b1b;
 }
 
 .accordion-item {
@@ -161,7 +166,7 @@ main {
 }
 
 .panelsStayOpen-collapseOne {
-  background: black;
+  background: #1b1b1b;
   box-sizing: border-box;
 }
 
@@ -191,7 +196,7 @@ main {
 }
 
 .accordionPanelsStayOpenExample {
-  background: black;
+  background: #1b1b1b;
 }
 
 #mainContact {
@@ -560,6 +565,19 @@ body {
   }
   100% {
     filter: hue-rotate(0deg);
+  }
+}
+@media (min-width: 320px) {
+  #cabecera__principal, #subtitulo__principal {
+    font-size: 2em;
+  }
+}
+
+@media (min-width: 320px) {
+  .carouselExampleInterval {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
   }
 }
 

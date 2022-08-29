@@ -1,0 +1,9 @@
+// Mixin para display flex, Ej. se llama con @include d-flex(center, flex-end, row)
+
+@mixin d-flex($justify, $align, $direct){
+	display: flex;
+	justify-content: $justify;
+	align-items: $align;
+	flex-direction: $direct;
+
+}

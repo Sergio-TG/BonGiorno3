@@ -2,13 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
 
-$fontMain: 'Roboto', sans-serif;
-$secondaryFont: 'Cinzel', sans-serif;
+$fontMain: 'Roboto',sans-serif;
+$secondaryFont: 'Cinzel',sans-serif;
 $textXl: 4em;
 $textLg: 3em;
 $textMd: 2em;
-$textMds: 1.5em;
+$textMds: 1.2em;
 $textSm: 1em;
+$textXs: 0.5em;
 
 $textBold: 700;
 $textRegular: 400;
@@ -17,21 +18,22 @@ $textLight: 300;
 
 #cabecera__principal {
     color: #1D1E0C;
-    font-family: 'Cinzel', serif;
+    font-family: $secondaryFont;
     font-weight: bold;
     font-size: 2.2em;
     text-align: center
 }
 
-#subtitulo__principal{
+#subtitulo__principal {
     margin-top: 10px;
 
 }
+
 .cabecera__nosotros {
-    color: #271D4E;
-    font-family: 'Cinzel', serif;
+    color: $red;
+    font-family: $secondaryFont;
     font-weight: bold;
-    font-size: 2em;
+    font-size: $textMd;
     padding: 20px 20px;
     text-align: center;
     animation-name: textAlpha;
@@ -39,16 +41,16 @@ $textLight: 300;
 }
 
 .cabecera__contacto {
-    color: #EF0E2E;
-    font-family: 'Cinzel', serif;
+    color: map-get($map:$paleta,$key:'color7');
+    font-family: $secondaryFont;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: $textMd;
     padding: 20px 20px;
     text-align: center;
 }
 
 .text__contacto {
-    font-size: 2em;
+    font-size: $textMds;
     font-weight: bold;
     text-align: center;
     animation-name: textAlpha;
@@ -56,7 +58,7 @@ $textLight: 300;
 }
 
 .text__horario {
-    font-size: 2.4rem;
+    font-size: $textMds;
     font-weight: bold;
     text-align: center;
 }
@@ -69,20 +71,21 @@ $textLight: 300;
 }
 
 .cabecera__productos {
-    color: #14E3E3;
-    font-family: 'Cinzel', serif;
+    color: map-get($map:$paleta,$key:'color7');
+    font-family: $secondaryFont;
     font-weight: bold;
-    font-size: 3rem;
-    text-decoration: none;
+    font-size: $textMd;
     padding: 20px 20px;
     text-align: center;
+    animation-name: textAlpha;
+    animation-duration: 4s;
 }
 
 #nuestras_promos {
-    color: #5446DC;
-    font-family: 'Cinzel', serif;
+    color: map-get($map:$paleta,$key:'color7');
+    font-family: $secondaryFont;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: $textMd;
     padding: 20px 20px;
     text-align: center;
 }

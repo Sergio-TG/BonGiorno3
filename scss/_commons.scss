@@ -27,12 +27,12 @@ body {
 }
 
 main {
-    text-align: center;
-    display: flex;
-    border-radius: 10px;
+    display: flex;    
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    border-radius: 10px;
     margin: 5px;
     padding: 10px;
 }
@@ -41,9 +41,13 @@ main {
     margin-top: 20px;
 }
 .main-text{
+    color: $secondaryColor;
     font-size: $textMds;
-    padding: 20 px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
     text-align: justify;
+    background-color: $black;
 
 }
 
@@ -55,7 +59,7 @@ main {
     text-align: justify;
 }
 .panelsStayOpen-collapseOne{
-    background: black;
+    background: $black;
     box-sizing:border-box;
 }
 
@@ -83,7 +87,7 @@ main {
 }
 
 .accordionPanelsStayOpenExample{
-    background: black;
+    background: $black;
     ;
 }
 #mainContact {

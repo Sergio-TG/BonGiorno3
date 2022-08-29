@@ -1,13 +1,14 @@
 // vars globales
-$mainColor: rgba(0,0,1);
-$secondaryColor: rgba(255,220,16,1);
-$keyColor:  rgba(116, 0, 255, 1);
+$mainColor: rgba(0, 0, 1);
+$secondaryColor: rgba(255, 220, 16, 1);
+$keyColor: rgba(116, 0, 255, 1);
 $orange: rgba(245, 188, 7, 0.8);
+$red: #EF0E2E;
 $white: #f1f3f2;
 $black: #1b1b1b;
 $brown: #424040;
 $blueviolet: #5800b0;
-$green: rgba(138,221,45,1);
+$green: rgba(138, 221, 45, 1);
 
 //sizing
 $w-100: 100%;
@@ -22,3 +23,32 @@ $w-25: 25%;
 $w-10: 10%;
 $w-5: 5%;
 
+//map con la paleta de colores de uso frecuente
+$paleta:('color1': rgba(245, 188, 7, 0.8),
+'color2': #f1f3f2,
+'color3': #1b1b1b,
+'color4': #424040,
+'color5': #5800b0,
+'color6': #1D1E0C,
+'color7': #EF0E2E,
+'color8': rgba(138, 221, 45, 1), );
+
+//Media Queries
+@mixin medias($breakpoint){
+    @if $breakpoint==mobile{
+        @media (min-width: 320px){
+            @content;
+        }
+    }
+    @if $breakpoint == tablet{
+    	@media (min-width: 600px){
+    		@content;
+    	}
+    }
+    @if $breakpoint == desktop{
+    	@media (min-width: 1200px){
+    		@content;
+    	}
+    }	
+
+}

@@ -1,0 +1,14 @@
+#cabecera__principal, #subtitulo__principal {
+    @include medias(mobile) {
+        font-size: $textMd;
+    }
+}
+
+.carouselExampleInterval {
+    @include medias(mobile) {
+        margin: auto;
+        padding: 0;
+        box-sizing: border-box;
+}
+}        
+
