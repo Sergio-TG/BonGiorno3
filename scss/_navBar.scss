@@ -36,8 +36,9 @@ a {
 }
 
 @media (min-width:320px) and (max-width:480px) {
-    .navbar{
-        &:hover{
-            color:$red}
+    .navbar-collapse {
+    &:hover {
+        color: $red;
     }
-    }
+}
+}

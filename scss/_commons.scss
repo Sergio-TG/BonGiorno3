@@ -1,8 +1,6 @@
 h1,
 h2,
 h3,
-h4,
-h5,
     {
     font-family: $secondaryFont;
     font-weight: $textBold;
@@ -27,7 +25,7 @@ body {
 }
 
 main {
-    display: flex;    
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -36,11 +34,13 @@ main {
     margin: 5px;
     padding: 10px;
 }
-.nosotros_main{
+
+.nosotros_main {
     width: $w-50;
     margin-top: 20px;
 }
-.main-text{
+
+.main-text {
     color: $secondaryColor;
     font-size: $textMds;
     padding: 10px;
@@ -51,16 +51,18 @@ main {
 
 }
 
-.accordion-item{
+.accordion-item {
     background: $black
 }
-.accordion-body{
+
+.accordion-body {
     color: $orange;
     text-align: justify;
 }
-.panelsStayOpen-collapseOne{
+
+.panelsStayOpen-collapseOne {
     background: $black;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
 #carouselExampleInterval {
@@ -79,17 +81,20 @@ main {
     margin: 30px;
     border-size: border-box;
 }
-.card-text{
-    margin-top: 15px;
-}
-.card-title{
-    margin-top: 15px;
+
+.card-text {
+    margin-top: 4px;
 }
 
-.accordionPanelsStayOpenExample{
+.card-title {
+    margin-top: 3px;
+}
+
+.accordionPanelsStayOpenExample {
     background: $black;
     ;
 }
+
 #mainContact {
     display: flex;
     flex-direction: column;

@@ -104,15 +104,13 @@ a {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-  .navbar:hover {
+  .navbar-collapse:hover {
     color: #EF0E2E;
   }
 }
 h1,
 h2,
-h3,
-h4,
-h5 {
+h3 {
   font-family: "Cinzel", sans-serif;
   font-weight: 700;
 }
@@ -193,11 +191,11 @@ main {
 }
 
 .card-text {
-  margin-top: 15px;
+  margin-top: 4px;
 }
 
 .card-title {
-  margin-top: 15px;
+  margin-top: 3px;
 }
 
 .accordionPanelsStayOpenExample {
@@ -573,7 +571,8 @@ body {
   }
 }
 @media (min-width: 320px) {
-  #cabecera__principal, #subtitulo__principal {
+  #cabecera__principal,
+#subtitulo__principal {
     font-size: 2em;
   }
 }
@@ -590,6 +589,25 @@ body {
 @media (min-width: 320px) {
   .cards {
     width: 85%;
+  }
+}
+
+@media (min-width: 320px) {
+  .card-text {
+    font-size: 1.2em;
+    color: #f1f3f2;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #FF0000;
+  }
+}
+
+@media (min-width: 320px) {
+  .card-title {
+    margin-top: 1px;
+    font-size: 2em;
   }
 }
 

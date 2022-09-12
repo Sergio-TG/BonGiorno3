@@ -1,7 +1,8 @@
 @import "./mixins";
 @import "./vars";
 
-#cabecera__principal, #subtitulo__principal {
+#cabecera__principal,
+#subtitulo__principal {
     @include medias(mobile) {
         font-size: $textMd;
     }
@@ -13,18 +14,38 @@
         padding: 0;
         box-sizing: border-box;
         width: $w-80;
+    }
 }
-}        
 
 .cards {
     @include medias(mobile) {
         width: $w-85;
-}
+    }
 }
 
-#botonera{
+.card-text {
     @include medias(mobile) {
-        :hover{
-            color:$red;}
+        font-size: $textMds;
+        color: $white;
+        padding: 10px;
+        margin: 5px;
+        border-radius: 10px;
+        text-align: center;
+        background-color: $rednav;
+    }
+}
+
+.card-title {
+    @include medias(mobile) {
+        margin-top: 1px;
+        font-size: $textMd;
+    }
+}
+
+#botonera {
+    @include medias(mobile) {
+        :hover {
+            color: $red;
+        }
     }
 }

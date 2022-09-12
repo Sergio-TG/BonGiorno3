@@ -2,8 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
 
-$fontMain: 'Roboto',sans-serif;
-$secondaryFont: 'Cinzel',sans-serif;
+$fontMain: 'Roboto',
+sans-serif;
+$secondaryFont: 'Cinzel',
+sans-serif;
 $textXl: 4em;
 $textLg: 3em;
 $textMd: 2em;
@@ -41,7 +43,7 @@ $textLight: 300;
 }
 
 .cabecera__contacto {
-    color: map-get($map:$paleta,$key:'color7');
+    color: map-get($map:$paleta, $key:'color7');
     font-family: $secondaryFont;
     font-weight: bold;
     font-size: $textMd;
@@ -71,7 +73,7 @@ $textLight: 300;
 }
 
 .cabecera__productos {
-    color: map-get($map:$paleta,$key:'color7');
+    color: map-get($map:$paleta, $key:'color7');
     font-family: $secondaryFont;
     font-weight: bold;
     font-size: $textMd;
@@ -82,7 +84,7 @@ $textLight: 300;
 }
 
 #nuestras_promos {
-    color: map-get($map:$paleta,$key:'color7');
+    color: map-get($map:$paleta, $key:'color7');
     font-family: $secondaryFont;
     font-weight: bold;
     font-size: $textMd;
